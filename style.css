@@ -492,3 +492,191 @@ footer{
 .frightMenu{
     margin-top: 10px;
 }
+
+@media screen and (max-width:480px) {
+
+    nav{
+      padding: 20px;
+    }
+
+    .search{
+      display: none;
+    }
+
+    .navItem .offer{
+      margin: 20px;
+      font-weight: 700;
+      font-size: 20px;
+      width: fit-content;
+    }
+
+
+    .menuItem{
+      margin: 20px;
+      font-size:4vw;
+      font-weight: 700; 
+    }
+    .navbottom{
+      flex-wrap: wrap;
+    }
+
+    .slider{
+      clip-path: none;
+    }
+
+    .slideImg{
+      width: 90%;
+    }
+
+    .slideBg{
+      width: 100%;
+      height: 100%;
+    }
+
+    .slideTitle{
+      display: none;
+    }
+
+    .price{
+      top: unset;
+      bottom: 0;
+      left: 0;
+      font-size: 35px;
+    }
+
+    .buy{
+      bottom: 0;
+      right: 0;
+      top: unset;
+      font-size: 25px;
+    }
+
+    .features{
+      flex-direction: column;
+    }
+
+    .featureTitle{
+      font-size: 20px;
+    }
+    .featureDsc{
+      font-size: 16px;
+    }
+      .product{
+        clip-path: none;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      .productDetails{
+        padding: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        position: relative;
+        top: 0; 
+      }
+
+      .productTitle{
+        font-size: 30px;
+        margin: 0;
+      }
+      .productPrice{
+        font-size: 20px;
+      }
+
+      .productDsc{
+        font-size: 19px;
+        padding: 10px;
+
+      }
+
+      .productImg{
+        width: 80%;
+      }
+      .size{
+        font-size: 20px;
+      }
+
+      .productBtn{
+        margin-bottom: 30px;
+      }
+
+      .gallary{
+        display: none;  
+      }
+
+      .newSeason{
+        margin-top: 350px;
+        flex-direction: column;
+      }
+
+      .nsItem:nth-child(2){
+        padding: 50px;
+      }
+
+      .titleSm{
+        font-size: 20px;
+      }
+
+      .titleLarge{
+        font-size: 25px;
+      }
+
+      .seasonBtn{
+        padding: 20px;
+        font-size: 15px;
+      }
+
+      footer{
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+      }
+
+      .footerLeft{
+        padding: 20px;
+        width: 90%;
+      }
+      .footerRight{
+        padding: 20px;
+        width: 90%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+      }
+
+   
+
+      .mlistTitle{
+        margin-right: 20px;
+      }
+
+      .menuTitle{
+        font-size: 18px;
+      }
+
+      .listTitle{
+        font-size: 12px;
+      }
+
+      .payment{
+        width: 90%;
+        padding: 15px;
+      }
+
+      .payBtn{
+
+      }
+
+      .close{
+        font-size: 20px;
+      }
+
+        .payBtn{
+          padding-top: 0px;
+          bottom: -1px;
+        }
+}
